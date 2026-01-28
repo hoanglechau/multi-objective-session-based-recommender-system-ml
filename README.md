@@ -17,7 +17,7 @@ Developed as a solution for the **OTTO Multi-Objective Recommender Challenge**, 
 
 The project utilizes a tiered architecture common in large-scale industrial recommender systems (e.g., YouTube, Netflix):
 
-```mermaid
+```
 graph TD
     A[Raw Data (JSONL)] -->|Polars Chunking| B(Preprocessing & Denoising)
     B --> C{Stage 1: Candidate Generation}
