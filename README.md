@@ -1,12 +1,4 @@
-Here is the complete content for the `README.md` file, formatted in Markdown and ready to be copied.
-
-```markdown
 # Large-Scale Multi-Objective Session-Based Recommender System
-
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
-![Library](https://img.shields.io/badge/Library-Polars%20%7C%20LightGBM-orange)
-![Task](https://img.shields.io/badge/Task-Multi--Objective%20Ranking-green)
-![Status](https://img.shields.io/badge/Status-Research%20Benchmark-brightgreen)
 
 ## 📌 Project Overview
 
@@ -113,42 +105,9 @@ Interpretability analysis via LightGBM Gain revealed:
 ### Installation
 
 ```bash
-git clone [https://github.com/yourusername/otto-recommender-system.git](https://github.com/yourusername/otto-recommender-system.git)
-cd otto-recommender-system
-pip install -r requirements.txt
+git clone [https://github.com/hoanglechau/multi-objective-session-based-recommender-system-ml.git](https://github.com/hoanglechau/multi-objective-session-based-recommender-system-ml.git)
 
 ```
-
-### Running the Pipeline
-
-1. **Preprocessing:** Convert raw JSONL to Parquet.
-```bash
-python src/data_processing/parquet_converter.py
-
-```
-
-
-2. **Candidate Generation:** Build co-visitation matrices.
-```bash
-python src/candidates/build_matrices.py
-
-```
-
-
-3. **Feature Engineering:** Create training data for Ranker.
-```bash
-python src/features/generate_features.py
-
-```
-
-
-4. **Training & Inference:** Train LightGBM ensembles and generate submission.
-```bash
-python src/models/train_lgbm.py
-
-```
-
-
 
 ---
 
@@ -164,7 +123,3 @@ python src/models/train_lgbm.py
 * OTTO – Multi-Objective Recommender System (Kaggle Competition)
 * Covington, P., et al. "Deep neural networks for youtube recommendations." RecSys 2016.
 * Ke, G., et al. "LightGBM: A highly efficient gradient boosting decision tree." NeurIPS 2017.
-
-```
-
-```
